@@ -11,7 +11,29 @@ Run docker on port 4000
 docker run --publish 4000:4000 sid_solution
 ```
 
-# Receipt Processor
+## To test whether the server is running
+
+Hit the following URL:
+```
+http://localhost:4000/hello
+```
+It should respond with a sentence 'Life is good!'
+
+## Remaining tasks
+
+### 1. POST request to localhost:
+
+Send the entire POST request to
+```
+http://localhost:4000/receipts/process
+```
+
+### 2. GET 
+Send a GET request to 
+```
+http://localhost:4000/receipts/{id}/points
+```
+
 
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
 in the [api.yml](./api.yml) file, but the information in this README is sufficient for completion of this challenge. We will use the 

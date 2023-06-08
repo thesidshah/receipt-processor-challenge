@@ -68,7 +68,7 @@ const processData =async (req,res) => {
         id: uuid(),
         points: points
     };
-
+      
     console.log(points+ ' final points');
 
     pointsArray.push(pointsEarned);
