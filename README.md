@@ -1,4 +1,4 @@
-#Siddhant Shah
+# Siddhant Shah
 This solution is written in JavaScript, using nodemon - it helps recompile everytime the source file is changed, the actual solution is written in node.js using ES6.
 
 ## Steps to run docker file
@@ -10,7 +10,7 @@ Run docker on port 4000
 ```
 docker run --publish 4000:4000 sid_solution
 ```
- 
+
 # Receipt Processor
 
 Build a webservice that fulfils the documented API. The API is described below. A formal definition is provided 
